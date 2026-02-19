@@ -78,5 +78,4 @@ For dark mode styling, DarkMode.module.css is used.
 
 License
 This project is open-source and free to use.
-
 ```
