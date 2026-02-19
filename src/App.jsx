@@ -33,6 +33,7 @@ const addToCart = (product) => { // Add product to cart
     }
   })
 }
+// TODO: Implement removeFromCart function to handle item removal from cart
 const removeFromCart = (productId) => { // Remove product from cart
   setCartItems(prevItems => prevItems.filter((item) => item.id !== productId))
 };

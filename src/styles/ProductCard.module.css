@@ -17,6 +17,19 @@
  .card:hover {
   transform: translateY(-5px);
  }
+ .addBtn {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #4f46e5;
+  color: white;
+  transition: 0.2s ease;
+ }
+    .addBtn:hover {
+    background-color: #4338ca;
+    }
 .card h3 {
   margin-bottom: 10px;
   font-size: 1.2rem;

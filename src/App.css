@@ -13,16 +13,6 @@
   background-color: #f4f6f8;
   color: #222;
  }
- .app.dark {
-  background-color: #121212;
-  color: #f5f5f5;
- }
- .app.dark select,
- .app.dark button {
-  background-color: #1f1f1f;
-  color: #fff;
-  border: 1px solid #333;
- }
  h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
@@ -68,9 +58,6 @@ select:focus {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   transition: 0.2s ease;
  }
- .app.dark .product-item {
-  background: #1e1e1e;
- }
  .product-item:hover {
   transform: translateY(-3px);
  }
@@ -80,9 +67,6 @@ select:focus {
   border-radius: 10px;
   background: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
- }
- .app.dark .cart-container {
-  background: #1e1e1e;
  }
  .cart-item {
   display: flex;
